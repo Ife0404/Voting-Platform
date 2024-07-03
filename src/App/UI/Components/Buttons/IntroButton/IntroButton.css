@@ -1,0 +1,12 @@
+.button {
+    background-color: #004EA4;
+    border: none;
+    border-radius: 14px;
+    width: 234px;
+    height: 59px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    color: #EBECED;
+}

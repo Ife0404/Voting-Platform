@@ -1,0 +1,22 @@
+.navbar {
+    background-color: none;
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    margin-top: 30px;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar li a {
+    font-size: 25px;
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: "DM Serif Display", serif;
+    text-decoration: none;
+}
