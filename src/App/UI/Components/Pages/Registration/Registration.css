@@ -1,0 +1,77 @@
+.registration {
+    background-color: #001124;
+    height: 100vh;
+}
+
+.registration-content {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.first-half img {
+    max-width: 300px;
+    margin-top: 75px;
+    margin-left: 200px;
+}
+
+.sh-title h2 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 45px;
+    font-family: "DM Serif Display", serif;
+}
+
+.first-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.third-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.fourth-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.fifth-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.sixth-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.main-form {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-family: "Padauk", sans-serif;
+}
+
+.reg-input {
+    width: 361px;
+    height: 43px;
+    border: none;
+    padding: 2px 2px 2px 10px;
+}
+
+.reg-but {
+    margin-top: 10px;
+    margin-left: -5px;
+}

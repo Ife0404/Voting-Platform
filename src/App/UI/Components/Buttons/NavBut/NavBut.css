@@ -1,0 +1,13 @@
+.navbut {
+    background-color: #015FC7;
+    border: none;
+    border-radius: 6px;
+    width: 119px;
+    height: 34px;
+    font-size: 25px;
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: "DM Serif Display", serif;
+    margin: 6px 6px;
+    cursor: pointer;
+}
