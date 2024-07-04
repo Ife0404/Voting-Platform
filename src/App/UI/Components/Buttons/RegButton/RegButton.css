@@ -1,0 +1,13 @@
+.navbut {
+    background-color: #015FC7;
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 43px;
+    font-size: 20px;
+    font-style: bold;
+    color: #FFFFFF;
+    font-family: "Padauk", sans-serif;
+    margin: 6px 6px;
+    cursor: pointer;
+}

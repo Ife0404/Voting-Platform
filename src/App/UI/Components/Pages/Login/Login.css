@@ -1,0 +1,84 @@
+.login {
+    background-color: #001124;
+    height: 100vh;
+}
+
+.login-content {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.ss-title h2 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 45px;
+    font-family: "DM Serif Display", serif;
+}
+
+.first-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.main-label {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-family: "Padauk", sans-serif;
+}
+
+.first-side {
+    margin-top: 100.725px;
+}
+
+.first-side img {
+    width: 600px;
+}
+
+.forgot-password {
+    font-family: "Padauk", sans-serif;
+    font-size: 20px;
+    color: #499FFE;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.user-reg {
+    margin-top: 10px;
+}
+
+.first-reg {
+    font-family: "Padauk", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.log-input {
+    width: 361px;
+    height: 43px;
+    border: none;
+    padding: 2px 2px 2px 10px;
+}
+
+.second-reg {
+    font-family: "Padauk", sans-serif;
+    font-size: 20px;
+    color: #499FFE;
+    font-style: normal;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.log-but {
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
