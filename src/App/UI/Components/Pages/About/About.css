@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -100px ;
 }
 
 .side-image img {
@@ -31,7 +32,7 @@
     transform: rotate(-90deg);
 }
 
-.next-side {
+.next-side p {
     max-width: 924px;
     max-height: 605px;
     font-family: "DM Serif Display", serif;

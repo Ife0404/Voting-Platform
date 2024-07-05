@@ -1,0 +1,166 @@
+.user-info {
+    background-color: #001124;
+    height: 100vh;
+}
+
+.user-content {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubut {
+    margin-top: 25px;
+}
+
+.edit-profile {
+    margin-top: 25px;
+}
+
+.matric {
+    margin-top: 55px;
+    display: flex;
+    gap: 130px;
+}
+
+.email {
+    margin-top: 55px;
+}
+
+.level {
+    margin-top: 55px;
+}
+
+.verification {
+    margin-top: 55px;
+    display: flex;
+    gap: 220px;
+}
+
+.name-fill {
+    font-size: 18px;
+    font-style: normal;
+    font-family: "Padauk", sans-serif;
+    color: #015FC7;
+}
+
+.matric-fill {
+    font-size: 18px;
+    font-style: normal;
+    font-family: "Padauk", sans-serif;
+    color: #015FC7;
+}
+
+.department-fill {
+    font-size: 18px;
+    font-style: normal;
+    font-family: "Padauk", sans-serif;
+    color: #015FC7;
+}
+
+.email-fill {
+    font-size: 18px;
+    font-style: normal;
+    font-family: "Padauk", sans-serif;
+    color: #015FC7;
+}
+
+.level {
+    font-size: 18px;
+    font-style: normal;
+    font-family: "Padauk", sans-serif;
+    color: #015FC7;
+}
+
+.ver-fill {
+    font-size: 18px;
+    font-style: normal;
+    font-family: "Padauk", sans-serif;
+    color: #015FC7;
+}
+
+.sver-fill {
+    font-size: 18px;
+    font-style: normal;
+    font-family: "Padauk", sans-serif;
+    color: #015FC7;
+}
+
+.name-real {
+    font-style: normal;
+    font-size: 23px;
+    font-family: "DM Serif Display", serif;
+    color: #FFFFFF;
+}
+
+.matric-real {
+    font-style: normal;
+    font-size: 23px;
+    font-family: "DM Serif Display", serif;
+    color: #FFFFFF;
+}
+
+.department-real {
+    font-style: normal;
+    font-size: 23px;
+    font-family: "DM Serif Display", serif;
+    color: #FFFFFF;
+}
+
+.email-real {
+    font-style: normal;
+    font-size: 23px;
+    font-family: "DM Serif Display", serif;
+    color: #FFFFFF;
+}
+
+.level-real {
+    font-style: normal;
+    font-size: 23px;
+    font-family: "DM Serif Display", serif;
+    color: #FFFFFF;
+}
+
+.ver-real {
+    font-style: normal;
+    font-size: 23px;
+    font-family: "DM Serif Display", serif;
+    color: #FFFFFF;
+}
+
+.sver-real {
+    font-style: normal;
+    font-size: 23px;
+    font-family: "DM Serif Display", serif;
+    color: #FFFFFF;
+}
+
+.user-first {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+}
+
+.info-nav {
+    margin-left: 60px;
+}
+
+.usersec-content {
+    margin-top: 50px;
+}
+
+.edit-text {
+    font-style: normal;
+    font-size: 20px;
+    font-family: "DM Serif Display", serif;
+    color: #FFFFFF;
+}
+
+.edit-profile {
+    margin-left: 75px;
+}
+
+.edit-profile .edit-text {
+    margin-left: 10px;
+}

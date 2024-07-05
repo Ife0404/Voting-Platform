@@ -1,0 +1,98 @@
+.user-navbar {
+    background-color: none;
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    margin-top: 30px;
+    align-items: center;
+    gap: 50px;
+}
+
+.user-nav {
+    display: flex;
+    gap: 50px;
+}
+
+.usernav-one {
+    font-size: 25px;
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: "DM Serif Display", serif;
+    text-decoration: none;
+}
+
+.usernav-two {
+    font-size: 25px;
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: "DM Serif Display", serif;
+    text-decoration: none;
+}
+
+.usernav-three {
+    font-size: 25px;
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: "DM Serif Display", serif;
+    text-decoration: none;
+}
+
+.usernav-one {
+    position: relative;
+}
+
+.usernav-one::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -2px;
+    left: 0;
+    background-color: currentColor;
+    transition: width 0.3s ease-in-out;
+    color: #015FC7;
+}
+
+.usernav-one:hover::after {
+    width: 100%;
+}
+
+.usernav-two {
+    position: relative;
+}
+
+.usernav-two::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -2px;
+    left: 0;
+    background-color: currentColor;
+    transition: width 0.3s ease-in-out;
+    color: #015FC7;
+}
+
+.usernav-two:hover::after {
+    width: 100%;
+}
+
+.usernav-three {
+    position: relative;
+}
+
+.usernav-three::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -2px;
+    left: 0;
+    background-color: currentColor;
+    transition: width 0.3s ease-in-out;
+    color: #015FC7;
+}
+
+.usernav-three:hover::after {
+    width: 100%;
+}
