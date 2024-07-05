@@ -3,7 +3,7 @@ import "./RegButton.css";
 
 function RegButton({ onClick, type, text }) {
     return (
-        <button onClick={onClick} type={type} className='navbut'>
+        <button onClick={onClick} type={type} className='regbut'>
             {text}
         </button>
     )

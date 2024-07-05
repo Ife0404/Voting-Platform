@@ -1,10 +1,17 @@
 import React from 'react';
 import "./Intro.css";
 import Head from "../../../../Images/svg/vote.svg"
-import Navbar from '../../Navbar/Navbar';
+import Navbar from '../../Navbar/IntroNavbar/Navbar';
 import IntroButton from '../../Buttons/IntroButton/IntroButton';
+import { useNavigate } from 'react-router-dom';
 
 function Intro() {
+
+    const navigate = useNavigate();
+    const handleRegisterClick = () => {
+        navigate("/registration")
+    }
+
     return (
         <div className='intro'>
             <div className='intro-content'>
@@ -22,7 +29,7 @@ function Intro() {
                             <p>Vote Today</p>
                         </div>
                         <div className='but-ton'>
-                            <IntroButton type='button' text={'REGISTER'} class='register' />
+                            <IntroButton onClick={handleRegisterClick} type='button' text={'REGISTER'} class='register' />
                             <IntroButton type='button' text={'READ MORE'} class='read-more' />
                         </div>
                     </div>

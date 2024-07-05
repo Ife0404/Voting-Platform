@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Login.css";
 import SIDE from "../../../../Images/svg/login.svg";
 import LoginButton from '../../Buttons/LoginButton/LoginButton';
 import { useNavigate } from 'react-router-dom';
+import { MdVisibilityOff } from "react-icons/md";
+import { MdVisibility } from "react-icons/md";
 
 function Login() {
 
@@ -11,6 +13,16 @@ function Login() {
     const handleRegisterClick = () => {
         navigate("/registration")
     }
+
+    const handleLogInClick = () => {
+        navigate("/elections")
+    }
+
+    const [passwordVisible, setPasswordVisible] = useState(false);
+
+    const togglePasswordVisibility = () => {
+        setPasswordVisible(!passwordVisible);
+    };
 
     return (
         <div className='login'>
@@ -32,18 +44,25 @@ function Login() {
                                 id=''
                                 placeholder='Enter Your Email'
                                 className='log-input'
+                                required
                             />
                         </div>
                         <div className='second-input'>
                             <label className='main-label'>
                                 Password
                             </label>
-                            <input
-                                type='password'
-                                id=''
-                                placeholder='Enter Your Password'
-                                className='log-input'
-                            />
+                            <div className='password-label'>
+                                <input
+                                    type={passwordVisible ? 'text' : 'password'}
+                                    id=''
+                                    placeholder='Enter Your Password'
+                                    className='log-input'
+                                    required
+                                />
+                                <button type='button' onClick={togglePasswordVisibility} className='visibility-toggle'>
+                                    {passwordVisible ? <MdVisibility /> : <MdVisibilityOff />}
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div className='forgot-password'>
@@ -53,7 +72,7 @@ function Login() {
                         <span className='first-reg'>Not a user?</span><span onClick={handleRegisterClick} className='second-reg'>Register now</span>
                     </div>
                     <div className='log-but'>
-                        <LoginButton type='button' text={'LOGIN'} class='login' />
+                        <LoginButton onClick={handleLogInClick} type='button' text={'LOGIN'} class='login' />
                     </div>
                 </div>
             </div>

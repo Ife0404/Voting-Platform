@@ -1,0 +1,12 @@
+.userbut {
+    background-color: #015FC7;
+    border: none;
+    width: 282px;
+    height: 49px;
+    font-size: 18px;
+    font-style: normal;
+    color: #FFFFFF;
+    font-family: "DM Serif Display", serif;
+    margin: 6px 6px;
+    cursor: pointer;
+}
