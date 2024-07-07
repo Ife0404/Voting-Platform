@@ -19,21 +19,21 @@
 }
 
 .matric {
-    margin-top: 55px;
+    margin-top: 50px;
     display: flex;
     gap: 130px;
 }
 
 .email {
-    margin-top: 55px;
+    margin-top: 45px;
 }
 
 .level {
-    margin-top: 55px;
+    margin-top: 45px;
 }
 
 .verification {
-    margin-top: 55px;
+    margin-top: 45px;
     display: flex;
     gap: 220px;
 }

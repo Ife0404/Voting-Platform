@@ -4,6 +4,7 @@ import PERSON from "../../../../Images/svg/Person.svg";
 import RegButton from "../../../Components/Buttons/RegButton/RegButton";
 import { MdVisibilityOff } from "react-icons/md";
 import { MdVisibility } from "react-icons/md";
+import { useNavigate } from 'react-router-dom';
 
 
 function Registration() {
@@ -13,6 +14,12 @@ function Registration() {
     const togglePasswordVisibility = () => {
         setPasswordVisible(!passwordVisible);
     };
+
+    const navigate = useNavigate();
+
+    const handleRegisterClick = () => {
+        navigate("/elections")
+    }
 
     return (
         <div className='registration'>
@@ -122,7 +129,7 @@ function Registration() {
                             </div>
                         </div>
                         <div className='reg-but'>
-                            <RegButton type='button' text={'SUBMIT'} class='submit' />
+                            <RegButton onClick={handleRegisterClick} type='button' text={'SUBMIT'} class='submit' />
                         </div>
                     </div>
                 </div>
