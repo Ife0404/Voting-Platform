@@ -1,31 +1,30 @@
-.about {
-    background-color: #001124;
+.feature {
+    background-color: #FFFFFF;
     height: 100vh;
 }
 
-.about-content {
+.feature-content {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: -100px ;
 }
 
-.side-image img {
+.feature-image img {
     max-width: 10px;
-    max-height: 500px;
+    max-height: 530px;
     margin-left: -50px;
-    margin-top: -20px;
 }
 
-.initial-side {
+.feature-first {
     display: flex;
     align-items: center;
     margin-top: 70px;
 }
 
 
-.side-title h2 {
-    color: #FFFFFF;
+.feature-title h2 {
+    color: #000000;
     font-style: normal;
     font-size: 115px;
     font-family: "DM Serif Display", serif;
@@ -33,7 +32,7 @@
     transform: rotate(-90deg);
 }
 
-.next-side p {
+.feature-side p {
     max-width: 924px;
     max-height: 605px;
     font-family: "DM Serif Display", serif;
@@ -42,7 +41,7 @@
     color: #FFFFFF;
 }
 
-.next-side p {
+.feature-side p {
     align-items: center;
     margin-top: 70px;
 }

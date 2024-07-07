@@ -29,7 +29,6 @@ function About() {
                         Even with its slowdown, the system is not impervious to hacking. We provide a system that is dependable and safe, and it tackles modern issues including easier booth accessibility, polling without crowds, affordable, quick results, and more.</p>
                 </div>
             </div>
-
         </div>
     )
 }

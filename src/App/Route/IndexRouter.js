@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import UserInfo from '../UI/Components/Pages/UserInfo/UserInfo';
 import ELECTION from '../UI/Components/Pages/Election/Election';
 import VOTING from '../UI/Components/Pages/Voting/Voting';
+import FEATURE from "../UI/Components/Pages/Feature/Feature";
 
 function IndexRouter() {
     return (
@@ -19,6 +20,7 @@ function IndexRouter() {
                 <Route Component={UserInfo} path={"/userinfo"}></Route>
                 <Route Component={ELECTION} path={"/elections"}></Route>
                 <Route Component={VOTING} path={"/voting"}></Route>
+                <Route Component={FEATURE} path={"/feature"}></Route>
             </Routes>
         </BrowserRouter>
     )

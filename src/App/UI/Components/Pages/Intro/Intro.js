@@ -8,9 +8,14 @@ import { useNavigate } from 'react-router-dom';
 function Intro() {
 
     const navigate = useNavigate();
+
     const handleRegisterClick = () => {
         navigate("/registration")
     }
+
+const handleFeatureClick = () => {
+    navigate("/feature")
+}
 
     return (
         <div className='intro'>
@@ -30,7 +35,7 @@ function Intro() {
                         </div>
                         <div className='but-ton'>
                             <IntroButton onClick={handleRegisterClick} type='button' text={'REGISTER'} class='register' />
-                            <IntroButton type='button' text={'READ MORE'} class='read-more' />
+                            <IntroButton onClick={handleFeatureClick} type='button' text={'READ MORE'} class='read-more' />
                         </div>
                     </div>
 
