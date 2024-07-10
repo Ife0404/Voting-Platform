@@ -6,8 +6,7 @@
 .feature-content {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: -100px ;
+    margin-left: 85px;
 }
 
 .feature-image img {
@@ -22,6 +21,70 @@
     margin-top: 70px;
 }
 
+.feature-side {
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.first-feature {
+    display: flex;
+}
+
+.second-feature {
+    display: flex;
+    margin-top: 15px;
+}
+
+.third-feature {
+    display: flex;
+    margin-top: 15px;
+}
+
+.fourth-feature {
+    display: flex;
+    margin-top: 15px;
+}
+
+.fifth-feature {
+    display: flex;
+    margin-top: 15px;
+}
+
+.sixth-feature {
+    display: flex;
+    margin-top: 15px;
+}
+
+.first-feature img {
+    max-width: 65px;
+    max-height: 160px;
+}
+
+.second-feature img {
+    max-width: 65px;
+    max-height: 160px;
+}
+
+.third-feature img {
+    max-width: 65px;
+    max-height: 160px;
+}
+
+.fourth-feature img {
+    max-width: 65px;
+    max-height: 160px;
+}
+
+.fifth-feature img {
+    max-width: 65px;
+    max-height: 160px;
+}
+
+.sixth-feature img {
+    max-width: 65px;
+    max-height: 160px;
+}
 
 .feature-title h2 {
     color: #000000;
@@ -32,16 +95,27 @@
     transform: rotate(-90deg);
 }
 
-.feature-side p {
+
+.feature-words {
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    font-size: 25px;
+    color: #010029;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-left: 30px;
+}
+
+/* .feature-side p {
     max-width: 924px;
     max-height: 605px;
     font-family: "DM Serif Display", serif;
     font-style: normal;
     font-size: 40px;
     color: #FFFFFF;
-}
+} */
 
-.feature-side p {
+/* .feature-side p {
     align-items: center;
     margin-top: 70px;
-}
+} */
