@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./UserInfo.css";
 import PROFILE from "../../../../Images/svg/profile.svg";
 import UserButton from "../../Buttons/UserButton/UserButton"
@@ -6,6 +6,11 @@ import PENCIL from "../../../../Images/svg/pencil.svg";
 import UserNavbar from '../../Navbar/UserNavbar/UserNavbar';
 
 function UserInfo() {
+
+    useEffect(() => {
+        document.title = "User Info";
+    }, []);
+
     return (
         <div className='user-info'>
             <div className='user-content'>

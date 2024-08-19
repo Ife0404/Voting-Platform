@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./Election.css";
 import UserNavbar from '../../Navbar/UserNavbar/UserNavbar';
 
 function Election() {
+
+  useEffect(() => {
+    document.title = "Election";
+  }, []);
+
   return (
     <div className='election'>
       <div>
