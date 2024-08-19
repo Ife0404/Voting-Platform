@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./Registration.css";
 import PERSON from "../../../../Images/svg/Person.svg";
 import RegButton from "../../../Components/Buttons/RegButton/RegButton";
@@ -8,6 +8,10 @@ import { useNavigate } from 'react-router-dom';
 
 
 function Registration() {
+
+    useEffect(() => {
+        document.title = "Registration Form";
+    }, []);
 
     const [passwordVisible, setPasswordVisible] = useState(false);
 

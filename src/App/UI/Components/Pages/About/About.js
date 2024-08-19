@@ -7,6 +7,10 @@ import 'aos/dist/aos.css';
 function About() {
 
     useEffect(() => {
+        document.title = "About";
+      }, []);
+
+    useEffect(() => {
         AOS.init({
             duration: 1000, // Customize the duration of the animations
             once: true,     // Whether animation should happen only once - while scrolling down

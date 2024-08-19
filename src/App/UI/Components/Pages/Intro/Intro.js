@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./Intro.css";
 import Head from "../../../../Images/svg/vote.svg"
 import Navbar from '../../Navbar/IntroNavbar/Navbar';
@@ -7,15 +7,19 @@ import { useNavigate } from 'react-router-dom';
 
 function Intro() {
 
+    useEffect(() => {
+        document.title = "VotiMate";
+    }, []);
+
     const navigate = useNavigate();
 
     const handleRegisterClick = () => {
         navigate("/registration")
     }
 
-const handleFeatureClick = () => {
-    navigate("/feature")
-}
+    const handleFeatureClick = () => {
+        navigate("/feature")
+    }
 
     return (
         <div className='intro'>

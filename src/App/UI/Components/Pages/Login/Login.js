@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./Login.css";
 import SIDE from "../../../../Images/svg/login.svg";
 import LoginButton from '../../Buttons/LoginButton/LoginButton';
@@ -7,6 +7,10 @@ import { MdVisibilityOff } from "react-icons/md";
 import { MdVisibility } from "react-icons/md";
 
 function Login() {
+
+    useEffect(() => {
+        document.title = "Login";
+    }, []);
 
     const navigate = useNavigate();
 
