@@ -14,6 +14,7 @@ function Registration() {
     }, []);
 
     const [passwordVisible, setPasswordVisible] = useState(false);
+    const [level, setLevel] = useState("");
 
     const togglePasswordVisibility = () => {
         setPasswordVisible(!passwordVisible);
@@ -23,6 +24,10 @@ function Registration() {
 
     const handleRegisterClick = () => {
         navigate("/elections")
+    }
+
+    const handleLevelChange = (e) => {
+        setLevel(e.target.value);
     }
 
     return (
@@ -49,23 +54,6 @@ function Registration() {
                             />
                         </div>
                         <div className='seventh-form'>
-                            {/* <label className='main-form'>
-                                Matric Number
-                            </label>
-                            <select
-                                name="matricNumber"
-                                id="matricNumber"
-                                className='reg-select'
-                            >
-                                <option value="" hidden>
-                                    Select Level
-                                </option>
-                                <option value="alevel">A level</option>
-                                <option value="100">100 Level</option>
-                                <option value="200">200 Level</option>
-                                <option value="300">300 Level</option>
-                                <option value="400">400 Level</option>
-                            </select> */}
                             <label className='main-form'>
                                 Department
                             </label>
@@ -95,13 +83,20 @@ function Registration() {
                             <label className='main-form'>
                                 Level
                             </label>
-                            <input
-                                type='number'
-                                id=''
-                                placeholder='Enter Your Level'
+                            <select
+                                value={level}
+                                onChange={handleLevelChange}
                                 className='reg-input'
                                 required
-                            />
+                            >
+                                <option value="" disabled>Select Your Level</option>
+                                <option value="100">100</option>
+                                <option value="200">200</option>
+                                <option value="300">300</option>
+                                <option value="400">400</option>
+                                <option value="500">500</option>
+                                <option value="A'level">A'level</option>
+                            </select>
                         </div>
                         <div className='fourth-form'>
                             <label className='main-form'>

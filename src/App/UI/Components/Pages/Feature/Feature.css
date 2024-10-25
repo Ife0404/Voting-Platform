@@ -6,25 +6,29 @@
 .feature-content {
     display: flex;
     align-items: center;
-    margin-left: 85px;
+    margin-left: 195px;
+    gap: 59.5px;
+}
+
+.feature-image {
+    margin-top: 50px;
 }
 
 .feature-image img {
     max-width: 10px;
     max-height: 530px;
-    margin-left: -50px;
 }
 
 .feature-first {
     display: flex;
     align-items: center;
-    margin-top: 70px;
+    gap: 80px;
 }
 
 .feature-side {
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .first-feature {
@@ -33,27 +37,27 @@
 
 .second-feature {
     display: flex;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .third-feature {
     display: flex;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .fourth-feature {
     display: flex;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .fifth-feature {
     display: flex;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .sixth-feature {
     display: flex;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .first-feature img {
@@ -86,6 +90,10 @@
     max-height: 160px;
 }
 
+.feature-title {
+    margin-top: 97px;
+}
+
 .feature-title h2 {
     color: #000000;
     font-style: normal;
@@ -93,6 +101,11 @@
     font-family: "DM Serif Display", serif;
     letter-spacing: -6px;
     transform: rotate(-90deg);
+}
+
+.feature-title {
+    width: 0;
+    height: 0;
 }
 
 

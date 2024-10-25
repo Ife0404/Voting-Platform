@@ -1,0 +1,63 @@
+.steps {
+    margin-left: 185px;
+    margin-top: -75px;
+}
+
+.steps-title h2 {
+    font-size: 100px;
+    font-style: normal;
+    font-family: "DM Serif Display",serif;
+}
+
+.steps-title .title {
+    text-decoration: underline;
+    text-decoration-color: #015FC7;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 8px;
+}
+
+.steps-body {
+    margin-top: -50px;
+}
+
+.body-body p {
+    font-size: 25px;
+    font-style: normal;
+    font-family: "DM Serif Display",serif;
+}
+
+.body-image {
+    max-width: 71.5px;
+    max-height: 70px;
+    margin-right: 50px;
+}
+
+.body-one {
+    display: flex;
+    align-items: center;
+}
+
+.body-two {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.body-three {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.body-four {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.body-five {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+

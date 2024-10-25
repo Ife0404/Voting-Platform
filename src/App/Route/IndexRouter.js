@@ -8,6 +8,7 @@ import UserInfo from '../UI/Components/Pages/UserInfo/UserInfo';
 import ELECTION from '../UI/Components/Pages/Election/Election';
 import VOTING from '../UI/Components/Pages/Voting/Voting';
 import FEATURE from "../UI/Components/Pages/Feature/Feature";
+import STEPS from "../UI/Components/Pages/Steps/Steps"
 
 function IndexRouter() {
     return (
@@ -21,6 +22,7 @@ function IndexRouter() {
                 <Route Component={ELECTION} path={"/elections"}></Route>
                 <Route Component={VOTING} path={"/voting"}></Route>
                 <Route Component={FEATURE} path={"/feature"}></Route>
+                <Route Component={STEPS} path={"/steps"}></Route>
             </Routes>
         </BrowserRouter>
     )
