@@ -25,7 +25,7 @@ function UserNavbar() {
         onClick={handleVotingClick}
         type="button"
         text={"Vote"}
-        class="vote"
+        className="vote"
       />
     </div>
   );

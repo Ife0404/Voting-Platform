@@ -1,4 +1,42 @@
-.election {
+.election-main {
     background-color: #001124;
     height: 100vh;
+}
+
+.election-content {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.election-title h2 {
+    font-size: 25px;
+    font-family: "DM Serif Display", serif;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.election-data {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C4C4C4;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 35px;
+    max-width: 1067px;
+    max-height: 63px;
+}
+
+.election-type {
+    font-size: 25px;
+    font-style: normal;
+    font-family: "DM Serif Display", serif;
+    color: #000000;
+}
+
+.election-date {
+    font-size: 25px;
+    font-style: normal;
+    font-family: "DM Serif Display", serif;
+    color: #000000;
 }
